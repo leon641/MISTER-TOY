@@ -1,0 +1,11 @@
+.filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    
+    padding: 10px;
+    background-color: lightgray;
+    margin-block-start: 10px;
+}

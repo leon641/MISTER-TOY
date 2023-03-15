@@ -1,0 +1,31 @@
+
+.toy-container  {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 10px;
+
+    padding: 10px;
+    background-color: $clr1;
+    list-style-type: none;
+
+}
+
+.add{
+    border-radius: 10px;
+    background-color: $clr11;
+  
+
+     &:hover {
+        background-color: $clr12;
+        scale: (1.1);
+    }
+}
+.remove{
+    border-radius: 7px;
+    background-color: $clr13;
+    
+    &:hover {
+        background-color: $clr14;
+        scale: (1.1);
+     }
+}

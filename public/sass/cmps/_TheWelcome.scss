@@ -1,0 +1,16 @@
+.el-carousel__item h1 {
+    color: $clr15;
+    opacity: 0.75;
+    font-weight: 600;
+    line-height: 200px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .el-carousel__item:nth-child(2n) {
+    background-color: $clr16;
+  }
+  
+  .el-carousel__item:nth-child(2n + 1) {
+    background-color: $clr17;
+  }
